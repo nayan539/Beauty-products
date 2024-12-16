@@ -1,0 +1,42 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+/* navbar */
+.navbar{
+    padding: 0;
+}
+.logo{
+    height: 60px;
+    object-fit: contain;
+}
+/* carosaul */
+
+.carousel-item{
+    max-height: 550px;
+    object-fit: contain;
+}
+/* services */
+.card{
+    transition: transform 0.2s,box-shadow 0.3s;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* media query */
+@media only screen and (max-width: 375px) {
+    /* carousel */
+.carousel-item{
+    height: 200px;
+}
+/* about */
+.mt-5{
+    margin-top: 1rem !important;
+}
+.mb-5{
+    margin: 1rem 0 !important;
+}
+.col-lg-4{
+    margin: .5rem 0;
+}
+}
